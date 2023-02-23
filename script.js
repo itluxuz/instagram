@@ -14,7 +14,8 @@ function sendMail() {
       document.getElementById("message").value = "";
       console.log(res);
       location.href =
-        "https://www.instagram.com/reel/ClgMV7GKSTW/?utm_source=ig_web_copy_link";
+        "https://www.instagram.com/reel/CoPvNDwoSGs/?igshid=YmMyMTA2M2Y=";
     })
+   
     .catch((err) => console.log(err));
 }
