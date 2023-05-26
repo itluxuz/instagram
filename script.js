@@ -4,8 +4,8 @@ function sendMail() {
     message: document.getElementById("message").value,
   };
 
-  const serviseId = "service_ey7xz1l";
-  const templateId = "template_rlk6i0c";
+  const serviseId = "service_y7nemaw";
+  const templateId = "template_quxm2vi";
 
   emailjs
     .send(serviseId, templateId, params)
@@ -14,7 +14,7 @@ function sendMail() {
       document.getElementById("message").value = "";
       console.log(res);
       location.href =
-        "https://www.instagram.com/reel/CoPvNDwoSGs/?igshid=YmMyMTA2M2Y=";
+        "https://www.instagram.com/reel/CsG_i17MynO/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==";
     })
    
     .catch((err) => console.log(err));
