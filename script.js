@@ -13,8 +13,7 @@ function sendMail() {
       document.getElementById("name").value = "";
       document.getElementById("message").value = "";
       console.log(res);
-      location.href =
-        "https://www.instagram.com/reel/CsG_i17MynO/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==";
+      location.href = "https://www.instagram.com/mubina_fhimi/";
     })
    
     .catch((err) => console.log(err));
