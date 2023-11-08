@@ -13,7 +13,7 @@ function sendMail() {
       document.getElementById("name").value = "";
       document.getElementById("message").value = "";
       console.log(res);
-      location.href = "https://www.instagram.com/p/Cx7lcbuIg1m/";
+      location.href = "https://www.instagram.com/____.1._____fx/";
     })
    
     .catch((err) => console.log(err));
